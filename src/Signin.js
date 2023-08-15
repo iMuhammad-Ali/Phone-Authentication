@@ -120,7 +120,7 @@ const Signin = () => {
                 >
                   Verify your phone number
                 </label>
-                <PhoneInput country={"in"} value={ph} onChange={setPh} />
+                <PhoneInput country={"pk"} value={ph} onChange={setPh} />
                 <button
                   onClick={onSignup}
                   className="bg-emerald-600 w-full flex gap-1 items-center justify-center py-2.5 text-white rounded"
